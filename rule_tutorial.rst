@@ -355,10 +355,7 @@ Create MongoDB Rules
 
   Select "message.publish", then type in the following SQL::
 
-    SELECT
-      *
-    FROM
-      "message.publish"
+    SELECT * FROM "#"
 
   .. image:: ./_static/images/mysql_sql_1.png
 
@@ -543,7 +540,7 @@ Create Redis Rules
 
   Select "message.publish", then type in the following SQL::
 
-    SELECT * FROM "t/#"
+    SELECT * FROM "#"
 
   .. image:: ./_static/images/mysql_sql_1.png
 
